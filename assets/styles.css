@@ -43,3 +43,170 @@
     color: var(--purple);
     gap: 20px;
 }
+
+/*Main*/
+#main {
+    background-color: var(--white);
+    margin-top: 70px;
+}
+
+/*Hero*/
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.hero h1 > span {
+    background: linear-gradient(90deg, rgba(103,76,234,1) 25%, rgba(184,193,236,1) 75%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero img {
+    height: 500px;
+}
+
+.hero-info {
+    width: 40%;
+    font-family: 'Manrope', sans-serif;
+    color: var(--black);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-info p {
+    margin-top: 30px;
+}
+
+.hero-btn {
+    background-color: #6246ea;
+    height: 50px;
+    width: 300px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.hero-info h1 {
+    color: var(--purple);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+/*Categories*/
+
+.about-us {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.about-us h2 {
+    color: var(--purple);
+    font-family: 'Manrope', sans-serif;
+}
+
+.about-us-box {
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    right: 0;
+    margin: 20px;
+    font-family: 'Manrope', sans-serif;
+    color: var(--purple);
+}
+
+.about-us-box img {
+    height: 100px;
+}
+
+.about-us-box p {
+    width: 70%;
+    color: var(--white);
+    font-weight: 600;
+}
+
+/*Categories*/
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+.categories-box {
+    display: flex;
+}
+
+.categories h2 {
+    color: var(--purple);
+    font-family: 'Manrope', sans-serif;
+}
+
+.categories-tag {
+    border: 2px solid var(--purple);
+    height: 500px;
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.categories-tag ul {
+    margin: 40px;
+    list-style: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.categories-tag h3 {
+    color: var(--black);
+    font-family: 'Manrope', sans-serif;
+}
+
+.btn-buy {
+    background-color: var(--purple);
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.price {
+    color: var(--purple);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+}

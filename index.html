@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="preconnect" 
     href="https://fonts.googleapis.com">
@@ -20,13 +24,79 @@
             <img src="./assets/Header/logo.png" alt="logo">
             <div class="nav">
                 <ul class="nav-list">
-                    <li>Home</li>
-                    <li>Descargar</li>
-                    <li>Acerca de Nosotros</li>
-                    <li>Categorias</li>
-                    <li>Contactanos</li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="./assets/">Ingresar</a></li>
+                    <li><a href="#about-us">Acerca de Nosotros</a></li>
+                    <li><a href="#categories">Nuestros Planes</a></li>
+                    <li><a href="#contact">Contactanos</a></li>
                 </ul>
             </div>
+        </div>
+    </section>
+    <section id="main">
+        <div class="hero">
+            <div class="hero-info">
+               <h1>La nube mas rapida y eficaz, solo <span>Scloud</span></h1>
+               <p>
+                   Desarollamos una nube donde podras guardar tus archivos, 
+                   y administrarlos de la manera mas rapida y sencilla posible.
+               </p>
+               <button class="hero-btn">Descargar Ya</button>
+            </div>
+            <img src="./assets/hero/hero.png" alt="">
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="about-us">
+            <div class="about-us-box">
+                <img src="./assets/about-us/cloud.png" alt="about-us">
+                <h4>La nube con mejor conectividad</h4>
+                <p>A lo largo de estos anos de desarollo, logramos un servicio con la mejor conectividad de la red.</p>
+            </div>
+            <div class="about-us-box">
+                <img src="./assets/about-us/conectivity.png" alt="about-us">
+                <h4>Conectate en cualquier dispositivo</h4>
+                <p>Nuesta app esta adaptada para cualquier dispositivo, para que ingreses donde y cuando quieras.</p>
+            </div>
+            <div class="about-us-box">
+                <img src="./assets/about-us/fasted.png" alt="about-us">
+                <h4>Alta Velocidad</h4>
+                <p>Contamos con una tecnologia que permite que descarges, subas y compartas tus archivos a alta velocidad.</p>
+            </div>
+        </div>
+    </section>
+    <section id="categories">
+        <div class="categories">
+            <h2>Nuestros Planes</h2>
+        <div class="categories-box">
+            <div class="categories-tag">
+                <span class="price">$0.00</span>
+                <h3>Plan Gratuito</h3>
+                <ul>
+                  <li>128GB de almacenamiento</li>
+                  <li>10GB de tranferencia</li>
+                </ul>
+                <button class="btn-buy">Lo Quiero</button>
+              </div>
+              <div class="categories-tag">
+                <span class="price">$699.00</span>
+                <h3>Plan Estandar</h3>
+                <ul>
+                  <li>500GB de almacenamiento</li>
+                  <li>50GB de tranferencia</li>
+                </ul>
+                <button class="btn-buy">Lo Quiero</button>
+              </div>
+              <div class="categories-tag">
+                <span class="price">$1200.00</span>
+                <h3>Plan Pro</h3>
+                <ul>
+                  <li>1TB de almacenamiento</li>
+                  <li>100GB de tranferencia</li>
+                </ul>
+                <button class="btn-buy">Lo Quiero</button>
+              </div>
+        </div>
         </div>
     </section>
 </body>
