@@ -13,12 +13,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap');
 
-html{
-    scroll-padding-top: 80px;
-    scroll-behavior: smooth
-  }
-  
-
 /*Header*/
 
 #header {
@@ -43,15 +37,11 @@ html{
 
 .nav ul {
     display: flex;
-    list-style-type: none;
-    gap: 50px;
-}
-
-.nav-link {
-    color: var(--purple);
-    text-decoration: none;
-    font-weight: 600;
     font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    list-style-type: none;
+    color: var(--purple);
+    gap: 20px;
 }
 
 /*Main*/
@@ -356,4 +346,82 @@ html{
 .hr-page {
   width: 100%;
   border-color: var(--green);
+}
+
+/*footer*/
+
+#footer {
+   
+}
+
+.footer {
+    width: 100%;
+    background-color: #B8C1EC;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img {
+    height: 120px;
+}
+
+.footer-links ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.footer-a {
+    color: var(--purple);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+
+.link-social {
+    color: var(--purple);
+    font-size: 30px;
+}
+
+.social ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.social {
+    padding: 20px;
+}
+
+.notify {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.notify h5 {
+    color: var(--black);
+}
+
+.input-notify {
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+}
+
+.submit-notify {
+    background-color: var(--purple);
+    border: none;
+    color: var(--white);
+    height: 30px;
+    border-radius: 5px;
 }
