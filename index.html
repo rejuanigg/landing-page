@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/mediaquerys.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/media-queries.css">
     <link rel="preconnect" 
     href="https://fonts.googleapis.com">
     <link rel="preconnect" 
@@ -24,7 +24,13 @@
     <header id="header">
         <div class="header">
             <img src="./assets/Header/logo2.png" alt="logo">
-            <div class="nav">
+            <nav class="nav">
+
+                <label for="menu-toggle" class="menu-label">
+                <img src="./assets/Header/menu.png" alt="toggle">
+            </label>
+            <input id="menu-toggle" type="checkbox">
+
                 <ul class="nav-list">
                     <li><a class="nav-link" href="#hero">Home</a></li>
                     <li><a class="nav-link" href="./login.html">Ingresar</a></li>
@@ -32,7 +38,7 @@
                     <li><a class="nav-link" href="#categories">Nuestros Planes</a></li>
                     <li><a class="nav-link" href="#contact">Contactanos</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </header>
 <main id="main">
@@ -49,10 +55,11 @@
             <img src="./assets/hero/hero.png" alt="">
         </div>
     </section>
+
     <section id="about-us">
         <div class="about-us">
             <h2>Acerca de Nosotros</h2>
-        <div class="categories-box">
+        <div class="about-us-box">
             <div class="about-us-tag">
                 <img src="./assets/about-us/cloud.png" alt="about-us">
                 <h4>La nube con mejor conectividad</h4>
