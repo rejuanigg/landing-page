@@ -58,6 +58,15 @@
         z-index: 2;
         display: none;
     }
+
+    .nav-list li {
+        border: 2px solid var(--purple);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 20px;
+    }
     
     .menu-label {
         display: flex;
@@ -167,6 +176,10 @@
 
 @media (max-width:600px){
 
+    .about-us h2 {
+        width: 60%;
+    }
+
     .about-us-tag {
         width: 80%;
     }
@@ -174,5 +187,13 @@
 
     .social {
         display: none;
+    }
+
+    .hero-btn {
+        width: 90%;
+    }
+
+    .info-section {
+        padding: 20px 5px;
     }
 }

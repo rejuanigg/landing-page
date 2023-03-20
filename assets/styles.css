@@ -41,7 +41,7 @@ html{
     height: 70px;
 }
 
-.nav ul {
+.nav-list {
     list-style-type: none;
     gap: 100px;
 }
