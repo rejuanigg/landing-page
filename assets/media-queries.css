@@ -253,6 +253,10 @@
     .input-help {
         width: 90%;
     }
+    
+    .input-help h2 {
+        margin-top: 40px;
+    }
 
     .input-help-text {
         width: 100%;
@@ -270,4 +274,5 @@
     .info-map iframe {
         width: 100%;
     }
+    
 }
