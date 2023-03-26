@@ -125,7 +125,7 @@
         width: 80%;
     }
 
-    .hero-info h1 > span {
+    .hero-info h1 {
         color: var(--purple);
 
     }
