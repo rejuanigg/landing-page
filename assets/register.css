@@ -13,7 +13,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap');
 
-.sign-in {
+.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     width: 100%;
 }
 
-.sign-in-input {
+.sign-up-input {
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -30,6 +30,11 @@
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(50px);
+    box-shadow: 0px 0px 5px 0px rgba(184,193,236,1);
+}
+
+.sign-up-input h3::after{
+    content: "👋";
 }
 
 .input-text {
@@ -41,7 +46,7 @@
     font-weight: 600;
 }
 
-.input-sign-in {
+.input-sign-up {
     border-style: hidden;
     border-radius: 2px;
     width: 100%;
@@ -53,7 +58,7 @@
     outline: none;
 }
 
-.nav-back-to a{
+.link-back-to{
     color: #E054B4;
     font-family: 'Manrope', sans-serif;
     gap: 5px;
@@ -61,6 +66,12 @@
     align-items: center;
     text-decoration: none;
     font-weight: 600;
+    transition: all 1s;
+}
+
+.link-back-to:hover {
+    transition: all .30s;
+    color: var(--purple);
 }
 
 .terms {
@@ -70,7 +81,7 @@
     color: #E054B4;
 }
 
-.btn-sign-in {
+.btn-sign-up {
     background-color: #E054B4;
     color: var(--white);
     height: 50px;
@@ -78,9 +89,17 @@
     border-radius: 8px;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
+    transition: all 1s;
 }
 
-.sign-in-input h3 {
+.btn-sign-up:hover {
+    transition: all .30s;
+    color: var(--purple);
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.sign-up-input h3 {
     color: var(--white);
     font-family: 'Manrope', sans-serif;
     display: flex;
@@ -88,29 +107,35 @@
     font-size: 30px;
 }
 
-.sign-in-input h4 {
+.sign-up-input h4 {
     color: var(--white);
     font-family: 'Manrope', sans-serif;
     display: flex;
     justify-content: center;
 }
 
-.sign-up {
+.sign-in {
     color: var(--white);
     font-family: 'Manrope', sans-serif;
 
 }
 
-.sign-up a {
+.sign-in a {
     color: #E054B4;
     text-decoration: none;
     font-weight: 800;
+    transition: all 1s;
+}
+
+.sign-in a:hover {
+    transition: all .30s;
+    color: var(--purple);
 }
 
 /* RESPONSIVE-DESIGN */
 
 @media (max-width: 700px){
-    .sign-in-input {
+    .sign-up-input {
         height: 100vh;
         width: 100vh;
     }

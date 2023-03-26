@@ -43,7 +43,7 @@ html{
 
 .nav-list {
     list-style-type: none;
-    gap: 100px;
+    gap: 80px;
 }
 
 .nav-list {
@@ -55,6 +55,7 @@ html{
     text-decoration: none;
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
+    padding: 12px;
 }
 
 /*Main*/
@@ -72,12 +73,6 @@ html{
     height: 80%;
 }
 
-.hero h1 > span {
-    background: linear-gradient(90deg, rgba(103,76,234,1) 25%, rgba(184,193,236,1) 75%);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
 .hero img {
     height: 600px;
 }
@@ -89,6 +84,11 @@ html{
     font-weight: 600;
     display: flex;
     flex-direction: column;
+}
+
+.hero-info h1::after {
+    content: "✨";
+
 }
 
 .hero-info p {
@@ -108,7 +108,9 @@ html{
 }
 
 .hero-info h1 {
-    color: var(--purple);
+    background: linear-gradient(90deg, rgba(103,76,234,1) 25%, rgba(184,193,236,1) 75%);
+    -webkit-background-clip: text;
+    color: transparent;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 40px;
@@ -222,6 +224,10 @@ html{
 .categories-tag h3 {
     color: var(--black);
     font-family: 'Manrope', sans-serif;
+    background-color: #ADE1F4;
+    padding: 5px 12px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px rgb(166, 167, 174);
 }
 
 .btn-buy {
@@ -446,4 +452,6 @@ html{
     color: var(--white);
     height: 30px;
     border-radius: 5px;
+    font-family: 'Manrope', sans-serif;
+
 }

@@ -43,6 +43,7 @@
     gap: 20px;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(184,193,236,1);
     backdrop-filter: blur(20px);
 }
 
@@ -92,9 +93,15 @@
     color: #E054B4;
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
+    transition: all 1s;
 }
 
-.btn-sign-up{
+.password-recovery:hover {
+    transition: all .30;
+    color: var(--purple);
+}
+
+.btn-sign-in{
     border: none;
     border-radius: 2px;
     height: 40px;
@@ -103,8 +110,14 @@
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
     cursor: pointer;
+    transition: all 1s;
 }
 
+.btn-sign-in:hover {
+    background-color: var(--secondary);
+    color: var(--purple);
+    transition: all .30s;
+}
 .sign-up {
     color: var(--white);
     font-family: 'Manrope', sans-serif;
@@ -115,6 +128,12 @@
   text-decoration: none;
   font-family: 'Manrope', sans-serif;
   font-weight: 700;
+  transition: all 1s;
+}
+
+.sign-up a:hover {
+    color: var(--purple);
+    transition: all .30s;
 }
 
 .link-back-to {
@@ -125,6 +144,12 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    transition: all 1s;
+}
+
+.link-back-to:hover {
+    transition: all .1;
+    color: var(--purple);
 }
 
 /* RESPONSIVE-DESIGN */
