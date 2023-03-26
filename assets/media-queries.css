@@ -127,7 +127,6 @@
 
     .hero-info h1 {
         color: var(--purple);
-
     }
     
     
@@ -187,7 +186,8 @@
 @media (max-width:600px){
 
     .about-us h2 {
-        width: 60%;
+        width: 100%;
+        text-align: center;
     }
 
     .about-us-tag {
@@ -205,5 +205,10 @@
 
     .info-section {
         padding: 20px 5px;
+    }
+
+    .info-section ul {
+        text-align: center;
+        align-items: center;
     }
 }
