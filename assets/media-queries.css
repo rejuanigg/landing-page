@@ -176,6 +176,7 @@
         height: 800px;
     }
 
+
 /* CONTACT */
 
     .contact-section {
@@ -185,23 +186,36 @@
 
 @media (max-width:600px){
 
+/* HERO */
+
+    .hero-btn {
+        width: 100%;
+    }
+
+    .hero {
+        margin-top: 20px;
+    }
+
+
+/* ABOUT-US */ 
+    
     .about-us h2 {
         width: 100%;
         text-align: center;
     }
-
+    
     .about-us-tag {
         width: 80%;
     }
 
 
-    .social {
-        display: none;
+/* CATEGORIES */
+
+    .categories h2 {
+        margin-top: 50px;
     }
 
-    .hero-btn {
-        width: 90%;
-    }
+/* CONTACT */
 
     .info-section {
         padding: 20px 5px;
@@ -210,5 +224,50 @@
     .info-section ul {
         text-align: center;
         align-items: center;
+    }
+
+/* FOOTER */
+
+     .social {
+            display: none;
+        }
+}
+
+@media (max-width:400px) {
+
+/* HERO */
+
+    .hero-btn {
+        width: 100%;
+    }
+
+/* ABOUT-US */
+
+    .about-us h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+/* CONTACT */
+
+    .input-help {
+        width: 90%;
+    }
+
+    .input-help-text {
+        width: 100%;
+    }
+
+    .btn-send-t-s {
+        width: 100%;
+    }
+
+    .info-section {
+        width: 100%;
+        background-color: var(--white);
+    }
+
+    .info-map iframe {
+        width: 100%;
     }
 }
