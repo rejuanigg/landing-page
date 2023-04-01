@@ -98,23 +98,20 @@
 
     .hero {
         height: 100vh;
-        background: url(./hero/background.png);
-        background-size: contain;
-        animation: wave 20s linear infinite;
+        background: url(./hero/wallpaper2.png);
+        background-size: cover;
+        animation: wave 10s linear infinite;
     }
 
     @keyframes wave {
-        0% {
+        from {
             background-position-x: 0px;
         }
 
-        100% {
+        to {
             background-position-x: 1000px;
         }
 
-        0% {
-            background-position-x: 0px;
-        }
     }
 
     .hero img {
