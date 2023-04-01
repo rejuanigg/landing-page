@@ -17,7 +17,7 @@
 
     .nav-link:hover {
         color: var(--purple);
-        transition: all .5s;
+        transition: all .30s;
         background-color: var(--secondary);
         height: 80%;
         border-radius: 4px;
@@ -38,41 +38,20 @@
     }
 
     .hero-btn {
-        animation: slide-btn 1s 1;
-        transition: all 0.5s;
+        transition: all 1s;
     }
 
-    @keyframes slide-btn {
-        from {
-            transform: translateX(-100%);
-        }
-        to {
-            transform: translateX(0);
-        }
-    }
 
     .hero-btn:hover {
         background-color: var(--secondary);
         color: var(--purple);
         cursor: pointer;
-        transition: all .7s;
+        transition: all .30s;
     }
 
 
 /* MAIN */
 
-    /* .about-us-tag {
-        animation: slide-left 2s 1;
-    }
-    
-    @keyframes slide-left {
-        from {
-            transform: translateX(-100%);
-        }
-        to {
-            transform: translateX(0);
-        }
-    } */
 
     .about-us-tag {
         animation: slide-up-tag-back 1s 1;

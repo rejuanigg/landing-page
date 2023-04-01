@@ -354,6 +354,7 @@ html{
   margin-top: 7px;
   color: var(--black);
   font-weight: 600;
+  align-items: center;
 }
 
 .info-map{
