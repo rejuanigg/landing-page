@@ -108,7 +108,7 @@ html{
 }
 
 .hero-info h1 {
-    background: linear-gradient(90deg, rgba(103,76,234,1) 25%, rgba(184,193,236,1) 75%);
+    background: linear-gradient(180deg, rgba(98,70,234,1) 15%, rgba(148,187,233,1) 100%);
     -webkit-background-clip: text;
     color: transparent;
     font-family: 'Manrope', sans-serif;
