@@ -49,6 +49,20 @@
         transition: all .30s;
     }
 
+    .hero img {
+        animation: img-hero 1s 1;
+    }
+
+    @keyframes img-hero {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX();
+        }
+    }
+
 
 /* MAIN */
 

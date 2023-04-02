@@ -99,7 +99,7 @@
     .hero {
         height: 100vh;
         background: url(./hero/wallpaper2.png);
-        background-size: cover;
+        background-size: covergi;
         animation: wave 10s linear infinite;
     }
 

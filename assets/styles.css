@@ -38,7 +38,7 @@ html{
 }
 
 .header img {
-    height: 70px;
+    height: 45px;
 }
 
 .nav-list {
@@ -120,6 +120,7 @@ html{
 #menu-toggle, .menu-label {
     display: none;
 }
+
 
 
 /*about-us*/
