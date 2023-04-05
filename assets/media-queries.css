@@ -190,6 +190,12 @@
     }
 }
 
+/*ABOUT-US*/
+
+.about-us-tag {
+    margin: 15px 0px
+}
+
 @media (max-width:600px){
 
 /* HERO */
@@ -211,7 +217,7 @@
     }
     
     .about-us-tag {
-        width: 80%;
+        width: 80%;    
     }
 
 
